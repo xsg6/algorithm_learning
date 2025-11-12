@@ -29,3 +29,13 @@ size_t是一种无符号整数类型，用于表述内存大小、数组长度�
 1. 一般：小写_功能
 2. 全局：g_小写_功能
 3. 实例既有可能在栈（自动回收），也可能在堆（手动释放）堆：CLASS* class_my=new CLASS() 栈：CLASS class_my
+## 类/结构体是否需要显示定义默认构造函数
+``` c++
+1. 需要无参创建类 eg：Student* arr = new Student[10]; 此时需要默认构造函数
+2. 我不显示定义任何构造函数，则此时不需要显示定义默认构造函数，不过成员变量可能被初始化错误
+3. 默认构造函数：没有参数 带参构造函数：有参数
+4. eg：    Student(string n, int a, float s) : name(n), age(a), score(s) {}
+
+    // 显式定义默认构造函数
+    Student() : name("Unknown"), age(0), score(0.0f) {}
+```
