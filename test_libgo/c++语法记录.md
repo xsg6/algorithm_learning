@@ -14,6 +14,7 @@
 eg:using IntVec = std::vector<int>; 用 IntVec 代替 std::vector<int>
 ```
 ## const关键字的各种用法（就近修饰，谁近谁就是常量）
+主要看那边能被修饰，默认修饰左边，若左边元素不可以被修饰，则修饰右边，eg：char* const p，‘*’不能被修饰，所以修饰的是 p（指针），const得修饰实体（int、*这些都不是）
 1. 核心作用是保护常量不被修改 eg:const int a=100
 2. 难点：修饰指针
     第一种：const char* p，这是指向常量的指针，指针可变（指向其他东西），指向内容不可变
