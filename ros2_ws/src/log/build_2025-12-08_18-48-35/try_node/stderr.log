@@ -1,0 +1,7 @@
+[01m[K/home/dministrator/myPro_c/ros2_ws/src/try_node/src/publisher_node.cpp:57:2:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribe_node[m[K’ does not name a type
+   57 | }[01;31m[Ksubscribe_node[m[K.cpp
+      |  [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

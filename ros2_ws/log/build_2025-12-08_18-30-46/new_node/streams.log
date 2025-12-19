@@ -1,0 +1,73 @@
+[0.012s] Invoking command in '/home/dministrator/myPro_c++/ros2_ws/build/new_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dministrator/myPro_c++/ros2_ws/src/new_node -DCMAKE_INSTALL_PREFIX=/home/dministrator/myPro_c++/ros2_ws/install/new_node
+[0.088s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.269s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.354s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.364s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.379s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.464s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.467s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.584s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.692s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.709s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.812s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.812s] RegularExpression::compile(): Nested *?+.
+[0.812s] RegularExpression::compile(): Error in compile.
+[0.812s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:73 (string):
+[0.812s]   string sub-command REGEX, mode MATCH failed to compile regex
+[0.812s]   "^/home/dministrator/myPro_c++/ros2_ws/src/new_node/.*".
+[0.812s] Call Stack (most recent call first):
+[0.812s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.812s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[0.812s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.812s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.812s]   CMakeLists.txt:25 (ament_package)
+[0.812s] 
+[0.812s] [0m
+[0.812s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:75 (string):
+[0.812s]   string sub-command REGEX, mode MATCH failed to compile regex
+[0.812s]   "^\$<.*:/home/dministrator/myPro_c++/ros2_ws/src/new_node/.*>$".
+[0.812s] Call Stack (most recent call first):
+[0.812s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.812s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[0.812s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.812s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.812s]   CMakeLists.txt:25 (ament_package)
+[0.812s] 
+[0.812s] [0m
+[0.813s] RegularExpression::compile(): Nested *?+.
+[0.813s] RegularExpression::compile(): Error in compile.
+[0.813s] RegularExpression::compile(): Nested *?+.
+[0.813s] RegularExpression::compile(): Error in compile.
+[0.813s] RegularExpression::compile(): Nested *?+.
+[0.813s] RegularExpression::compile(): Error in compile.
+[0.813s] -- Configured cppcheck include dirs: 
+[0.813s] -- Configured cppcheck exclude dirs and/or files: 
+[0.813s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:73 (string):
+[0.813s]   string sub-command REGEX, mode MATCH failed to compile regex
+[0.813s]   "^/home/dministrator/myPro_c++/ros2_ws/src/new_node/.*".
+[0.813s] Call Stack (most recent call first):
+[0.813s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.814s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[0.814s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.814s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.814s]   CMakeLists.txt:25 (ament_package)
+[0.814s] 
+[0.814s] [0m
+[0.814s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake:75 (string):
+[0.814s]   string sub-command REGEX, mode MATCH failed to compile regex
+[0.814s]   "^\$<.*:/home/dministrator/myPro_c++/ros2_ws/src/new_node/.*>$".
+[0.814s] Call Stack (most recent call first):
+[0.814s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.814s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake:21 (ament_execute_extensions)
+[0.814s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.814s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.814s]   CMakeLists.txt:25 (ament_package)
+[0.815s] 
+[0.815s] [0m
+[0.815s] -- Added test 'lint_cmake' to check CMake code style
+[0.815s] -- Added test 'uncrustify' to check C / C++ code style
+[0.815s] -- Configured uncrustify additional arguments: 
+[0.815s] -- Added test 'xmllint' to check XML markup files
+[0.817s] -- Configuring incomplete, errors occurred!
+[0.832s] Invoked command in '/home/dministrator/myPro_c++/ros2_ws/build/new_node' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dministrator/myPro_c++/ros2_ws/src/new_node -DCMAKE_INSTALL_PREFIX=/home/dministrator/myPro_c++/ros2_ws/install/new_node

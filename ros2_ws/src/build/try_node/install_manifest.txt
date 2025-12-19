@@ -1,0 +1,17 @@
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/lib/try_node/publisher_node
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/lib/try_node/subscriber_node
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/ament_index/resource_index/package_run_dependencies/try_node
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/ament_index/resource_index/parent_prefix_path/try_node
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/try_node/environment/ament_prefix_path.sh
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/try_node/environment/ament_prefix_path.dsv
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/try_node/environment/path.sh
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/try_node/environment/path.dsv
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/try_node/local_setup.bash
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/try_node/local_setup.sh
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/try_node/local_setup.zsh
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/try_node/local_setup.dsv
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/try_node/package.dsv
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/ament_index/resource_index/packages/try_node
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/try_node/cmake/try_nodeConfig.cmake
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/try_node/cmake/try_nodeConfig-version.cmake
+/home/dministrator/myPro_c/ros2_ws/src/install/try_node/share/try_node/package.xml

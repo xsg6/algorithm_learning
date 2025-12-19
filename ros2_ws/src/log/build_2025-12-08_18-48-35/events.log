@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000646] (-) JobUnselected: {'identifier': 'test_node'}
+[0.000683] (try_node) JobQueued: {'identifier': 'try_node', 'dependencies': OrderedDict()}
+[0.000711] (try_node) JobStarted: {'identifier': 'try_node'}
+[0.009235] (try_node) JobProgress: {'identifier': 'try_node', 'progress': 'cmake'}
+[0.010341] (try_node) Command: {'cmd': ['/usr/bin/cmake', '/home/dministrator/myPro_c/ros2_ws/src/try_node', '-DCMAKE_INSTALL_PREFIX=/home/dministrator/myPro_c/ros2_ws/src/install/try_node'], 'cwd': '/home/dministrator/myPro_c/ros2_ws/src/build/try_node', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'dministrator', 'GIT_ASKPASS': '/home/dministrator/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dministrator', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/dministrator/myPro_c++/ros2_ws', 'TERM_PROGRAM_VERSION': '1.104.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-492dbb77-945c-4c82-b9e6-b1d8621ae433.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dministrator/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/dministrator/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/dministrator/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/dministrator/miniconda3', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dministrator/myPro_c/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dministrator', 'NAME': 'LZD-20250701JKE', 'WSL_INTEROP': '/run/WSL/515_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/dministrator/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/bin/remote-cli:/opt/ros/jazzy/bin:/home/dministrator/miniconda3/bin:/home/dministrator/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0:/mnt/c/windows/System32/OpenSSH:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/d/IntelliJ IDEA 2024.1.4/bin:/mnt/d/PyCharm 2024.1.6/bin:/mnt/d/Microsoft VS Code/bin:/snap/bin:/usr/local/nginx/sbin:/home/dministrator/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/dministrator/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/usr/local/nginx/sbin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/dministrator/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-934a672687229924.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/dministrator/.vscode-server/data/User/workspaceStorage/029e43d7c22488eead1e02d484ed97df/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6421dd96df.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/dministrator/myPro_c/ros2_ws/install/new_node:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/dministrator/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/home/dministrator/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/dministrator/myPro_c/ros2_ws/src/build/try_node', 'CONDA_EXE': '/home/dministrator/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/dministrator/miniconda3', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/dministrator/myPro_c/ros2_ws/install/new_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.099783] (-) TimerEvent: {}
+[0.108854] (try_node) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199909] (-) TimerEvent: {}
+[0.300197] (-) TimerEvent: {}
+[0.380604] (try_node) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.400430] (-) TimerEvent: {}
+[0.475635] (try_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.488054] (try_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.500549] (-) TimerEvent: {}
+[0.504111] (try_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.522651] (try_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.591962] (try_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.594505] (try_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600652] (-) TimerEvent: {}
+[0.700901] (-) TimerEvent: {}
+[0.706445] (try_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801017] (-) TimerEvent: {}
+[0.802955] (try_node) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.821545] (try_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.901185] (-) TimerEvent: {}
+[0.917771] (try_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.919013] (try_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.919197] (try_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.919247] (try_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.919706] (try_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.919756] (try_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.920446] (try_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.921247] (try_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.921324] (try_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.921759] (try_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.922624] (try_node) StdoutLine: {'line': b'-- Configuring done (0.8s)\n'}
+[0.939489] (try_node) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.943466] (try_node) StdoutLine: {'line': b'-- Build files have been written to: /home/dministrator/myPro_c/ros2_ws/src/build/try_node\n'}
+[0.955314] (try_node) CommandEnded: {'returncode': 0}
+[0.955836] (try_node) JobProgress: {'identifier': 'try_node', 'progress': 'build'}
+[0.956356] (try_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dministrator/myPro_c/ros2_ws/src/build/try_node', '--', '-j16', '-l16'], 'cwd': '/home/dministrator/myPro_c/ros2_ws/src/build/try_node', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'dministrator', 'GIT_ASKPASS': '/home/dministrator/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dministrator', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/dministrator/myPro_c++/ros2_ws', 'TERM_PROGRAM_VERSION': '1.104.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-492dbb77-945c-4c82-b9e6-b1d8621ae433.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dministrator/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/dministrator/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/dministrator/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/dministrator/miniconda3', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dministrator/myPro_c/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dministrator', 'NAME': 'LZD-20250701JKE', 'WSL_INTEROP': '/run/WSL/515_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/dministrator/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/bin/remote-cli:/opt/ros/jazzy/bin:/home/dministrator/miniconda3/bin:/home/dministrator/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0:/mnt/c/windows/System32/OpenSSH:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/d/IntelliJ IDEA 2024.1.4/bin:/mnt/d/PyCharm 2024.1.6/bin:/mnt/d/Microsoft VS Code/bin:/snap/bin:/usr/local/nginx/sbin:/home/dministrator/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/dministrator/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/usr/local/nginx/sbin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/dministrator/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-934a672687229924.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/dministrator/.vscode-server/data/User/workspaceStorage/029e43d7c22488eead1e02d484ed97df/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6421dd96df.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/dministrator/myPro_c/ros2_ws/install/new_node:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/dministrator/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/home/dministrator/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/dministrator/myPro_c/ros2_ws/src/build/try_node', 'CONDA_EXE': '/home/dministrator/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/dministrator/miniconda3', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/dministrator/myPro_c/ros2_ws/install/new_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.996814] (try_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[0.997141] (try_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscribe_node.cpp.o\x1b[0m\n'}
+[1.001300] (-) TimerEvent: {}
+[1.101582] (-) TimerEvent: {}
+[1.201946] (-) TimerEvent: {}
+[1.302265] (-) TimerEvent: {}
+[1.402580] (-) TimerEvent: {}
+[1.502831] (-) TimerEvent: {}
+[1.603134] (-) TimerEvent: {}
+[1.703409] (-) TimerEvent: {}
+[1.803693] (-) TimerEvent: {}
+[1.903991] (-) TimerEvent: {}
+[2.004353] (-) TimerEvent: {}
+[2.104652] (-) TimerEvent: {}
+[2.205061] (-) TimerEvent: {}
+[2.305365] (-) TimerEvent: {}
+[2.405665] (-) TimerEvent: {}
+[2.505979] (-) TimerEvent: {}
+[2.606283] (-) TimerEvent: {}
+[2.706581] (-) TimerEvent: {}
+[2.806881] (-) TimerEvent: {}
+[2.907193] (-) TimerEvent: {}
+[3.007686] (-) TimerEvent: {}
+[3.108005] (-) TimerEvent: {}
+[3.142212] (try_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dministrator/myPro_c/ros2_ws/src/try_node/src/publisher_node.cpp:57:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscribe_node\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.142398] (try_node) StderrLine: {'line': b'   57 | }\x1b[01;31m\x1b[Ksubscribe_node\x1b[m\x1b[K.cpp\n'}
+[3.142441] (try_node) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.208135] (-) TimerEvent: {}
+[3.308437] (-) TimerEvent: {}
+[3.408741] (-) TimerEvent: {}
+[3.509030] (-) TimerEvent: {}
+[3.609379] (-) TimerEvent: {}
+[3.709668] (-) TimerEvent: {}
+[3.809965] (-) TimerEvent: {}
+[3.910267] (-) TimerEvent: {}
+[4.002228] (try_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o] Error 1\n'}
+[4.002487] (try_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher_node.dir/all] Error 2\n'}
+[4.002546] (try_node) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.010346] (-) TimerEvent: {}
+[4.110580] (-) TimerEvent: {}
+[4.210856] (-) TimerEvent: {}
+[4.311173] (-) TimerEvent: {}
+[4.411504] (-) TimerEvent: {}
+[4.511841] (-) TimerEvent: {}
+[4.612187] (-) TimerEvent: {}
+[4.712474] (-) TimerEvent: {}
+[4.812880] (-) TimerEvent: {}
+[4.913205] (-) TimerEvent: {}
+[5.013515] (-) TimerEvent: {}
+[5.113816] (-) TimerEvent: {}
+[5.214102] (-) TimerEvent: {}
+[5.314390] (-) TimerEvent: {}
+[5.414700] (-) TimerEvent: {}
+[5.515035] (-) TimerEvent: {}
+[5.615317] (-) TimerEvent: {}
+[5.715626] (-) TimerEvent: {}
+[5.815975] (-) TimerEvent: {}
+[5.916263] (-) TimerEvent: {}
+[6.016594] (-) TimerEvent: {}
+[6.116975] (-) TimerEvent: {}
+[6.217276] (-) TimerEvent: {}
+[6.317548] (-) TimerEvent: {}
+[6.417893] (-) TimerEvent: {}
+[6.518173] (-) TimerEvent: {}
+[6.618503] (-) TimerEvent: {}
+[6.718836] (-) TimerEvent: {}
+[6.819169] (-) TimerEvent: {}
+[6.919461] (-) TimerEvent: {}
+[7.019761] (-) TimerEvent: {}
+[7.092215] (try_node) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable subscriber_node\x1b[0m\n'}
+[7.119880] (-) TimerEvent: {}
+[7.220159] (-) TimerEvent: {}
+[7.320439] (-) TimerEvent: {}
+[7.385424] (try_node) StdoutLine: {'line': b'[ 75%] Built target subscriber_node\n'}
+[7.386355] (try_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.388239] (try_node) CommandEnded: {'returncode': 2}
+[7.397293] (try_node) JobEnded: {'identifier': 'try_node', 'rc': 2}
+[7.407811] (-) EventReactorShutdown: {}
