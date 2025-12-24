@@ -1,0 +1,24 @@
+[ 33%] Built target learn_functional
+[ 66%] Built target subscriber_node
+[100%] Built target publisher_node
+-- Install configuration: ""
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/publisher_node
+-- Set non-toolchain portion of runtime path of "/home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/publisher_node" to ""
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/subscriber_node
+-- Set non-toolchain portion of runtime path of "/home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/subscriber_node" to ""
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/learn_functional
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/ament_index/resource_index/package_run_dependencies/try_node
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/ament_index/resource_index/parent_prefix_path/try_node
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/environment/ament_prefix_path.sh
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/environment/ament_prefix_path.dsv
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/environment/path.sh
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/environment/path.dsv
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/local_setup.bash
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/local_setup.sh
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/local_setup.zsh
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/local_setup.dsv
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/package.dsv
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/ament_index/resource_index/packages/try_node
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/cmake/try_nodeConfig.cmake
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/cmake/try_nodeConfig-version.cmake
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/package.xml

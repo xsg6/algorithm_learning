@@ -31,3 +31,5 @@ void merge_sort(vector<int>& nums,int left,int right){
     // 合并两个有序子数组
     merge(nums,left,mid,right);
 }
+//这是左闭右闭的写法
+

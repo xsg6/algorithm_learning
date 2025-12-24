@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dministrator/myPro_c/ros2_ws/src/try_node/include/cpp-httplib -DCMAKE_INSTALL_PREFIX=/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib
+[0.370s] -- The CXX compiler identification is GNU 13.3.0
+[0.588s] -- Detecting CXX compiler ABI info
+[0.750s] -- Detecting CXX compiler ABI info - done
+[0.758s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.761s] -- Detecting CXX compile features
+[0.762s] -- Detecting CXX compile features - done
+[0.776s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.915s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.916s] -- Found Threads: TRUE  
+[1.656s] -- Configuring done (1.6s)
+[1.657s] -- Generating done (0.0s)
+[1.659s] -- Build files have been written to: /home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib
+[1.663s] Invoked command in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dministrator/myPro_c/ros2_ws/src/try_node/include/cpp-httplib -DCMAKE_INSTALL_PREFIX=/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib
+[1.664s] Invoking command in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib -- -j16 -l16
+[1.693s] Invoked command in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib -- -j16 -l16
+[1.700s] Invoking command in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib
+[1.707s] -- Install configuration: ""
+[1.707s] -- Installing: /home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/include/httplib.h
+[1.708s] -- Installing: /home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/lib/cmake/httplib/httplibConfig.cmake
+[1.708s] -- Installing: /home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/lib/cmake/httplib/httplibConfigVersion.cmake
+[1.708s] -- Installing: /home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/lib/cmake/httplib/FindBrotli.cmake
+[1.708s] -- Installing: /home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/lib/cmake/httplib/httplibTargets.cmake
+[1.710s] Invoked command in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib

@@ -1,0 +1,24 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o[0m
+[ 83%] Built target subscriber_node
+[ 83%] Built target publisher_node
+[100%] [32m[1mLinking CXX executable learn_functional[0m
+[100%] Built target learn_functional
+-- Install configuration: ""
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/publisher_node
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/subscriber_node
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/learn_functional
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/ament_index/resource_index/package_run_dependencies/try_node
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/ament_index/resource_index/parent_prefix_path/try_node
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/environment/path.sh
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/environment/path.dsv
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/local_setup.bash
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/local_setup.sh
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/local_setup.zsh
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/local_setup.dsv
+-- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/package.dsv
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/ament_index/resource_index/packages/try_node
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/cmake/try_nodeConfig.cmake
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/cmake/try_nodeConfig-version.cmake
+-- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/package.xml

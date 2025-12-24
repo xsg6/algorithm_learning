@@ -4,7 +4,7 @@ project(try_node)
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
-
+include_directories(include/cpp-httplib) #添加这一行以包含include头文件目录
 # 查找依赖包
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
@@ -23,6 +23,12 @@ add_executable(subscriber_node src/subscribe_node.cpp)
 ament_target_dependencies(subscriber_node rclcpp std_msgs)  # 补充 std_msgs 依赖
 install(TARGETS
   subscriber_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+add_executable(learn_functional src/learn_functional.cpp)
+add_executable(learn_thread src/learn_thread.cpp)
+install(TARGETS learn_functional learn_thread
   DESTINATION lib/${PROJECT_NAME}
 )
 

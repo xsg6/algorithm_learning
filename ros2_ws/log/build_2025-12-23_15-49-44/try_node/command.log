@@ -1,0 +1,4 @@
+Invoking command in '/home/dministrator/myPro_c/ros2_ws/build/try_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dministrator/myPro_c/ros2_ws/build/try_node -- -j16 -l16
+Invoked command in '/home/dministrator/myPro_c/ros2_ws/build/try_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dministrator/myPro_c/ros2_ws/build/try_node -- -j16 -l16
+Invoking command in '/home/dministrator/myPro_c/ros2_ws/build/try_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dministrator/myPro_c/ros2_ws/build/try_node
+Invoked command in '/home/dministrator/myPro_c/ros2_ws/build/try_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dministrator/myPro_c/ros2_ws/build/try_node

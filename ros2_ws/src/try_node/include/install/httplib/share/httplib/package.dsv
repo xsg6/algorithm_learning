@@ -1,0 +1,6 @@
+source;share/httplib/hook/cmake_module_path.ps1
+source;share/httplib/hook/cmake_module_path.dsv
+source;share/httplib/hook/cmake_module_path.sh
+source;share/httplib/hook/cmake_prefix_path.ps1
+source;share/httplib/hook/cmake_prefix_path.dsv
+source;share/httplib/hook/cmake_prefix_path.sh

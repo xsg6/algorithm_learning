@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/home/dministrator/myPro_c/ros2_ws/build/try_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dministrator/myPro_c/ros2_ws/build/try_node -- -j16 -l16
+[0.049s] [ 25%] Built target learn_functional
+[0.051s] [ 50%] Built target subscriber_node
+[0.051s] [ 75%] Built target publisher_node
+[0.051s] [ 87%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[0.848s] [01m[K/home/dministrator/myPro_c/ros2_ws/src/try_node/src/learn_thread.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K()[m[K’:
+[0.848s] [01m[K/home/dministrator/myPro_c/ros2_ws/src/try_node/src/learn_thread.cpp:35:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kd[m[K’
+[0.848s]    35 |     [01;31m[Kd[m[K.start_download("http://0.0.0.0:8000","/novel1.txt",word_count);
+[0.848s]       |     [01;31m[K^[m[K
+[1.683s] gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] Error 1
+[1.684s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/learn_thread.dir/all] Error 2
+[1.684s] gmake: *** [Makefile:146: all] Error 2
+[1.686s] Invoked command in '/home/dministrator/myPro_c/ros2_ws/build/try_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dministrator/myPro_c/ros2_ws/build/try_node -- -j16 -l16

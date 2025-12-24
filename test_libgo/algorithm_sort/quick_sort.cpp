@@ -10,8 +10,8 @@ void quickSort(vector<int>& nums, int left, int right) {
     int i = left;
     int j = right;
     while(i<j){
-        while(nums[j]>=pivot) j--;
-        while(nums[i]<=pivot) i++;
+        while(i<j&&nums[j]>=pivot) j--;
+        while(i<j&&nums[i]<=pivot) i++;
         if(i<j){
             swap(nums[i],nums[j]);
         }

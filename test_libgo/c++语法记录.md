@@ -51,7 +51,7 @@ size_t是一种无符号整数类型，用于表述内存大小、数组长度�
     // 显式定义默认构造函数
     Student() : name("Unknown"), age(0), score(0.0f) {}
 ```
-*** 一些c++新特性（ros2会用）***
+*** 一些c++新特性（ros2会用）**
 ## auto的用法
 *** auto关键字是类型推导工具 ***
 ``` c++
@@ -92,8 +92,22 @@ lambda 表达式（λ 表达式）是 C++11 引入的一种匿名函数（没有
 3. weak_ptr:弱引用指针是 shared_ptr 的 “辅助工具”，指向 shared_ptr 管理的资源，但不增加引用计数，也不影响资源销毁，核心解决 shared_ptr 的循环引用问题。
 ## 函数包装器
 #include<functional>
-
-
+核心功能：统一调用函数的接口，例如自由函数，成员函数，lambda函数
+eg:std::function<返回值类型(参数类型1, 参数类型2, ...)> 包装器对象
+关键：bind的用法：
+class Calc {
+public:
+    int mul(int a, int b) { // 非静态成员函数
+        return a * b;
+    }
+    static int div(int a, int b) { // 静态成员函数
+        return a / b;
+    }
+};
+Calc obj;
+    // 包装非静态成员函数：需用&取地址，且绑定对象
+    function<int(int, int)> func1 = bind(&Calc::mul, &obj, placeholders::_1, placeholders::_2);
+这里的placeholders::_1, placeholders::_2是指mul的两个参数不固定，要固定就直接换成一个值
 
 
 
@@ -139,3 +153,6 @@ eg：auto comp_ptr = std::make_unique<SimpleComponent>();
     这句话的意思是创建智能（独占）指针指向SimpleComponent这个类的实例
     ->是和指针配套使用，.是和实例配套使用
     comp_ptr->chengyuan等价于(*comp_ptr).chengyuan
+## 深拷贝与浅拷贝
+浅拷贝：只拷贝对象的「表层数据」（如栈上的基本类型、指针 / 引用），不拷贝指针指向的「底层资源」。拷贝后，原对象和新对象共享同一份底层资源。
+深拷贝：不仅拷贝表层数据，还会为新对象「重新分配独立的底层资源」，并将原资源的内容复制到新资源中。拷贝后，原对象和新对象完全独立，互不影响。

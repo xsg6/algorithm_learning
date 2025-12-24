@@ -1,0 +1,133 @@
+[0.236s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.237s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77cc69d66ed0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77cc69d66bd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77cc69d66bd0>>)
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.340s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(cpp-httplib) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(cpp-httplib) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(cpp-httplib) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(cpp-httplib) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(cpp-httplib) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(cpp-httplib) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(cpp-httplib) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(cpp-httplib) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(cpp-httplib) by extension 'ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(cpp-httplib) by extensions ['cmake', 'python']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(cpp-httplib) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(cpp-httplib) by extension 'python'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp-httplib' with type 'cmake' and name 'httplib'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(try_node) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.425s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/dministrator/myPro_c/ros2_ws/install
+[0.427s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'httplib' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'httplib' build argument 'cmake_target' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'httplib' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'httplib' build argument 'cmake_clean_cache' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'httplib' build argument 'cmake_clean_first' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'httplib' build argument 'cmake_force_configure' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'httplib' build argument 'ament_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'httplib' build argument 'catkin_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'httplib' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.504s] DEBUG:colcon.colcon_core.verb:Building package 'httplib' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib', 'merge_install': False, 'path': '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/cpp-httplib', 'symlink_install': False, 'test_result_base': None}
+[0.504s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.505s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/cpp-httplib'
+[0.509s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.509s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.509s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dministrator/myPro_c/ros2_ws/src/try_node/include/cpp-httplib -DCMAKE_INSTALL_PREFIX=/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib
+[2.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dministrator/myPro_c/ros2_ws/src/try_node/include/cpp-httplib -DCMAKE_INSTALL_PREFIX=/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib
+[2.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib -- -j16 -l16
+[2.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib -- -j16 -l16
+[2.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib
+[2.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(httplib)
+[2.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dministrator/myPro_c/ros2_ws/src/try_node/include/build/httplib
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib' for CMake module files
+[2.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('httplib', 'cmake_module_path')
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/share/httplib/hook/cmake_module_path.ps1'
+[2.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/share/httplib/hook/cmake_module_path.dsv'
+[2.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/share/httplib/hook/cmake_module_path.sh'
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib' for CMake config files
+[2.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('httplib', 'cmake_prefix_path')
+[2.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/share/httplib/hook/cmake_prefix_path.ps1'
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/share/httplib/hook/cmake_prefix_path.dsv'
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/share/httplib/hook/cmake_prefix_path.sh'
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/lib'
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/bin'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/lib/pkgconfig/httplib.pc'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/lib/python3.12/site-packages'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/bin'
+[2.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/share/httplib/package.ps1'
+[2.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/share/httplib/package.dsv'
+[2.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/share/httplib/package.sh'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/share/httplib/package.bash'
+[2.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/share/httplib/package.zsh'
+[2.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/httplib/share/colcon-core/packages/httplib)
+[2.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.232s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.261s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.264s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.264s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/local_setup.ps1'
+[2.265s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/_local_setup_util_ps1.py'
+[2.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/setup.ps1'
+[2.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/local_setup.sh'
+[2.268s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/_local_setup_util_sh.py'
+[2.268s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/setup.sh'
+[2.269s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/local_setup.bash'
+[2.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/setup.bash'
+[2.271s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/local_setup.zsh'
+[2.271s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dministrator/myPro_c/ros2_ws/src/try_node/include/install/setup.zsh'

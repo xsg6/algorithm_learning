@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000564] (try_node) JobQueued: {'identifier': 'try_node', 'dependencies': OrderedDict()}
+[0.000612] (try_node) JobStarted: {'identifier': 'try_node'}
+[0.005604] (try_node) JobProgress: {'identifier': 'try_node', 'progress': 'cmake'}
+[0.006096] (try_node) JobProgress: {'identifier': 'try_node', 'progress': 'build'}
+[0.006971] (try_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dministrator/myPro_c/ros2_ws/build/try_node', '--', '-j16', '-l16'], 'cwd': '/home/dministrator/myPro_c/ros2_ws/build/try_node', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'dministrator', 'GIT_ASKPASS': '/home/dministrator/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dministrator', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/dministrator/myPro_c/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.104.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-ba63680a-0b5f-4dac-8e64-e0c940d8e6d7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dministrator/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/dministrator/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/dministrator/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/dministrator/miniconda3', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/dministrator/myPro_c/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dministrator', 'NAME': 'LZD-20250701JKE', 'WSL_INTEROP': '/run/WSL/524_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/dministrator/.vscode-server/bin/385651c938df8a906869babee516bffd0ddb9829/bin/remote-cli:/opt/ros/jazzy/bin:/home/dministrator/miniconda3/bin:/home/dministrator/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0:/mnt/c/windows/System32/OpenSSH:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Administrator/AppData/Local/Programs/Python/Launcher:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/d/IntelliJ IDEA 2024.1.4/bin:/mnt/d/PyCharm 2024.1.6/bin:/mnt/d/Microsoft VS Code/bin:/snap/bin:/usr/local/nginx/sbin:/home/dministrator/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/dministrator/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/usr/local/nginx/sbin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/dministrator/.vscode-server/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-934a672687229924.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/dministrator/.vscode-server/data/User/workspaceStorage/029e43d7c22488eead1e02d484ed97df/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6421dd96df.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/dministrator/myPro_c/ros2_ws/install/try_node:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/dministrator/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/home/dministrator/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/dministrator/myPro_c/ros2_ws/build/try_node', 'CONDA_EXE': '/home/dministrator/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/dministrator/miniconda3', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/dministrator/myPro_c/ros2_ws/install/try_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.046912] (try_node) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099815] (-) TimerEvent: {}
+[0.200120] (-) TimerEvent: {}
+[0.300404] (-) TimerEvent: {}
+[0.353314] (try_node) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.400538] (-) TimerEvent: {}
+[0.464363] (try_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.474952] (try_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.490919] (try_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500651] (-) TimerEvent: {}
+[0.506453] (try_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.580307] (try_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.582909] (try_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600766] (-) TimerEvent: {}
+[0.701037] (-) TimerEvent: {}
+[0.711412] (try_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801157] (-) TimerEvent: {}
+[0.822469] (try_node) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.839634] (try_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.901301] (-) TimerEvent: {}
+[0.949159] (try_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.960244] (try_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.960537] (try_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/dministrator/myPro_c/ros2_ws/src/try_node/include;/home/dministrator/myPro_c/ros2_ws/src/try_node/include/demo_pkg\n'}
+[0.960601] (try_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.966644] (try_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.966770] (try_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.967888] (try_node) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.967975] (try_node) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[0.970837] (try_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.972288] (try_node) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.978535] (try_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.978697] (try_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.980570] (try_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.982655] (try_node) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.001420] (-) TimerEvent: {}
+[1.002177] (try_node) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.007278] (try_node) StdoutLine: {'line': b'-- Build files have been written to: /home/dministrator/myPro_c/ros2_ws/build/try_node\n'}
+[1.034831] (try_node) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o\x1b[0m\n'}
+[1.036314] (try_node) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/learn_functional.dir/src/learn_functional.cpp.o\x1b[0m\n'}
+[1.043268] (try_node) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[1.044293] (try_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscribe_node.cpp.o\x1b[0m\n'}
+[1.077270] (try_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dministrator/myPro_c/ros2_ws/src/try_node/src/learn_thread.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcpp_httplib/httplib.h: No such file or directory\n'}
+[1.077425] (try_node) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"cpp_httplib/httplib.h"\x1b[m\x1b[K\n'}
+[1.077470] (try_node) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.077509] (try_node) StderrLine: {'line': b'compilation terminated.\n'}
+[1.078600] (try_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] Error 1\n'}
+[1.078889] (try_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/learn_thread.dir/all] Error 2\n'}
+[1.079000] (try_node) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.101557] (-) TimerEvent: {}
+[1.201834] (-) TimerEvent: {}
+[1.302182] (-) TimerEvent: {}
+[1.402647] (-) TimerEvent: {}
+[1.459358] (try_node) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable learn_functional\x1b[0m\n'}
+[1.502751] (-) TimerEvent: {}
+[1.577580] (try_node) StdoutLine: {'line': b'[ 62%] Built target learn_functional\n'}
+[1.602880] (-) TimerEvent: {}
+[1.703195] (-) TimerEvent: {}
+[1.803539] (-) TimerEvent: {}
+[1.903865] (-) TimerEvent: {}
+[2.004228] (-) TimerEvent: {}
+[2.104643] (-) TimerEvent: {}
+[2.204952] (-) TimerEvent: {}
+[2.305265] (-) TimerEvent: {}
+[2.405544] (-) TimerEvent: {}
+[2.505822] (-) TimerEvent: {}
+[2.606105] (-) TimerEvent: {}
+[2.706408] (-) TimerEvent: {}
+[2.806696] (-) TimerEvent: {}
+[2.907051] (-) TimerEvent: {}
+[3.007345] (-) TimerEvent: {}
+[3.107641] (-) TimerEvent: {}
+[3.207916] (-) TimerEvent: {}
+[3.308203] (-) TimerEvent: {}
+[3.408677] (-) TimerEvent: {}
+[3.509133] (-) TimerEvent: {}
+[3.609477] (-) TimerEvent: {}
+[3.709844] (-) TimerEvent: {}
+[3.810385] (-) TimerEvent: {}
+[3.910798] (-) TimerEvent: {}
+[4.011087] (-) TimerEvent: {}
+[4.111384] (-) TimerEvent: {}
+[4.211664] (-) TimerEvent: {}
+[4.311948] (-) TimerEvent: {}
+[4.412247] (-) TimerEvent: {}
+[4.512548] (-) TimerEvent: {}
+[4.612838] (-) TimerEvent: {}
+[4.713123] (-) TimerEvent: {}
+[4.813414] (-) TimerEvent: {}
+[4.869821] (try_node) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher_node\x1b[0m\n'}
+[4.913536] (-) TimerEvent: {}
+[5.013854] (-) TimerEvent: {}
+[5.107128] (try_node) StdoutLine: {'line': b'[ 75%] Built target publisher_node\n'}
+[5.114042] (-) TimerEvent: {}
+[5.214440] (-) TimerEvent: {}
+[5.314703] (-) TimerEvent: {}
+[5.414997] (-) TimerEvent: {}
+[5.515313] (-) TimerEvent: {}
+[5.615599] (-) TimerEvent: {}
+[5.715943] (-) TimerEvent: {}
+[5.816250] (-) TimerEvent: {}
+[5.916552] (-) TimerEvent: {}
+[6.016856] (-) TimerEvent: {}
+[6.117140] (-) TimerEvent: {}
+[6.217424] (-) TimerEvent: {}
+[6.317719] (-) TimerEvent: {}
+[6.418040] (-) TimerEvent: {}
+[6.518328] (-) TimerEvent: {}
+[6.618674] (-) TimerEvent: {}
+[6.719056] (-) TimerEvent: {}
+[6.819459] (-) TimerEvent: {}
+[6.919799] (-) TimerEvent: {}
+[7.020203] (-) TimerEvent: {}
+[7.120536] (-) TimerEvent: {}
+[7.220866] (-) TimerEvent: {}
+[7.241367] (try_node) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable subscriber_node\x1b[0m\n'}
+[7.320992] (-) TimerEvent: {}
+[7.421308] (-) TimerEvent: {}
+[7.466280] (try_node) StdoutLine: {'line': b'[ 87%] Built target subscriber_node\n'}
+[7.467147] (try_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.469196] (try_node) CommandEnded: {'returncode': 2}
+[7.476897] (try_node) JobEnded: {'identifier': 'try_node', 'rc': 2}
+[7.488229] (-) EventReactorShutdown: {}

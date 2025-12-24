@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[ 37%] Built target learn_functional
+[ 87%] Built target subscriber_node
+[ 87%] Built target publisher_node

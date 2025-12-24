@@ -1,0 +1,7 @@
+[01m[K/home/dministrator/myPro_c/ros2_ws/src/try_node/src/learn_thread.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcpp_httplib/httplib.h: No such file or directory
+    5 | #include [01;31m[K"cpp_httplib/httplib.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/learn_thread.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

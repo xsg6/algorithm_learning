@@ -1,0 +1,40 @@
+[0.015s] Invoking command in '/home/dministrator/myPro_c/ros2_ws/build/try_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/dministrator/myPro_c/ros2_ws/src/try_node -DCMAKE_INSTALL_PREFIX=/home/dministrator/myPro_c/ros2_ws/install/try_node
+[0.371s] -- The C compiler identification is GNU 13.3.0
+[0.711s] -- The CXX compiler identification is GNU 13.3.0
+[0.878s] -- Detecting C compiler ABI info
+[1.021s] -- Detecting C compiler ABI info - done
+[1.029s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.030s] -- Detecting C compile features
+[1.031s] -- Detecting C compile features - done
+[1.064s] -- Detecting CXX compiler ABI info
+[1.193s] -- Detecting CXX compiler ABI info - done
+[1.200s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.200s] -- Detecting CXX compile features
+[1.200s] -- Detecting CXX compile features - done
+[1.206s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.294s] -- Found Python3: /home/dministrator/miniconda3/bin/python3 (found version "3.13.5") found components: Interpreter 
+[1.373s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.441s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.451s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.475s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.530s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.531s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.588s] -- Found OpenSSL: /usr/local/lib/libcrypto.so (found version "1.1.1g")  
+[1.672s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.715s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.801s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.813s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.895s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.896s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.896s] -- Configured cppcheck include dirs: 
+[1.896s] -- Configured cppcheck exclude dirs and/or files: 
+[1.897s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.897s] -- Configured cpplint exclude dirs and/or files: 
+[1.898s] -- Added test 'lint_cmake' to check CMake code style
+[1.899s] -- Added test 'uncrustify' to check C / C++ code style
+[1.899s] -- Configured uncrustify additional arguments: 
+[1.899s] -- Added test 'xmllint' to check XML markup files
+[1.902s] -- Configuring done (1.8s)
+[1.915s] -- Generating done (0.0s)
+[1.919s] -- Build files have been written to: /home/dministrator/myPro_c/ros2_ws/build/try_node

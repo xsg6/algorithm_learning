@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/dministrator/myPro_c/ros2_ws/build/try_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dministrator/myPro_c/ros2_ws/build/try_node -- -j16 -l16
+[0.048s] [ 25%] Built target learn_functional
+[0.050s] [ 37%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[0.050s] [ 62%] Built target publisher_node
+[0.053s] [ 87%] Built target subscriber_node
+[4.000s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[4.129s] [100%] Built target learn_thread
+[4.138s] Invoked command in '/home/dministrator/myPro_c/ros2_ws/build/try_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dministrator/myPro_c/ros2_ws/build/try_node -- -j16 -l16
+[4.146s] Invoking command in '/home/dministrator/myPro_c/ros2_ws/build/try_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dministrator/myPro_c/ros2_ws/build/try_node
+[4.151s] -- Install configuration: ""
+[4.153s] -- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/publisher_node
+[4.154s] -- Set non-toolchain portion of runtime path of "/home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/publisher_node" to ""
+[4.154s] -- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/subscriber_node
+[4.158s] -- Set non-toolchain portion of runtime path of "/home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/subscriber_node" to ""
+[4.158s] -- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/learn_functional
+[4.158s] -- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/lib/try_node/learn_thread
+[4.159s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/ament_index/resource_index/package_run_dependencies/try_node
+[4.160s] -- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/ament_index/resource_index/parent_prefix_path/try_node
+[4.160s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/environment/ament_prefix_path.sh
+[4.160s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/environment/ament_prefix_path.dsv
+[4.160s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/environment/path.sh
+[4.160s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/environment/path.dsv
+[4.160s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/local_setup.bash
+[4.160s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/local_setup.sh
+[4.160s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/local_setup.zsh
+[4.160s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/local_setup.dsv
+[4.160s] -- Installing: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/package.dsv
+[4.160s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/ament_index/resource_index/packages/try_node
+[4.161s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/cmake/try_nodeConfig.cmake
+[4.161s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/cmake/try_nodeConfig-version.cmake
+[4.161s] -- Up-to-date: /home/dministrator/myPro_c/ros2_ws/install/try_node/share/try_node/package.xml
+[4.163s] Invoked command in '/home/dministrator/myPro_c/ros2_ws/build/try_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/dministrator/myPro_c/ros2_ws/build/try_node

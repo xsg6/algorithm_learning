@@ -1,0 +1,13 @@
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/uninstall.dir
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/try_node_uninstall.dir
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/publisher_node.dir
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/subscriber_node.dir
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/learn_functional.dir
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/learn_thread.dir
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/test.dir
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/edit_cache.dir
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/rebuild_cache.dir
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/list_install_components.dir
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/install.dir
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/install/local.dir
+/home/dministrator/myPro_c/ros2_ws/build/try_node/CMakeFiles/install/strip.dir

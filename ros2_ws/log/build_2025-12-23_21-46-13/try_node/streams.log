@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/home/dministrator/myPro_c/ros2_ws/build/try_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dministrator/myPro_c/ros2_ws/build/try_node -- -j16 -l16
+[0.048s] [ 12%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[0.048s] [ 37%] Built target learn_functional
+[0.052s] [ 87%] Built target subscriber_node
+[0.052s] [ 87%] Built target publisher_node
+[0.094s] [01m[K/home/dministrator/myPro_c/ros2_ws/src/try_node/src/learn_thread.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Khttplib.h: No such file or directory
+[0.094s]     5 | #include [01;31m[K"httplib.h"[m[K
+[0.094s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.094s] compilation terminated.
+[0.096s] gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:76: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] Error 1
+[0.096s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/learn_thread.dir/all] Error 2
+[0.096s] gmake: *** [Makefile:146: all] Error 2
+[0.098s] Invoked command in '/home/dministrator/myPro_c/ros2_ws/build/try_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/dministrator/myPro_c/ros2_ws/build/try_node -- -j16 -l16

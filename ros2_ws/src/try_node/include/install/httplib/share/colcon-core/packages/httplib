@@ -1,0 +1,1 @@
+${_component_name}:${_component_name}_STATIC:Brotli:GLOBAL:GTest:IMPORTED_TARGET:OpenSSL:PkgConfig:Python3:QUIET:Threads:ZLIB:libbrotli${_libname}
