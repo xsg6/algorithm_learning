@@ -1,0 +1,3 @@
+/home/dministrator/myPro_c/webserver/build/CMakeFiles/webserver.dir
+/home/dministrator/myPro_c/webserver/build/CMakeFiles/edit_cache.dir
+/home/dministrator/myPro_c/webserver/build/CMakeFiles/rebuild_cache.dir
